@@ -7,7 +7,4 @@ inscrições para o evento.
 O trabalho foi desenvolvido utilizando HTML, CSS e JavaScript.
 Pode ser executado em qualquer navegador.
 
-O site está hospedado na plataforma Vercel e 
-pode ser acessado através do link: 
-
 Esse projeto foi desenvolvido apenas para fins educacionais.
