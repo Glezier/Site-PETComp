@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscrição para maratona</title>
+    <link rel="stylesheet" href="styles/formulario.css">
+</head>
+<body >
+    <!-- Header -->
+    <header>
+        <h2>
+            Bem-vindo
+        </h2>
+        <p>
+            Para dar prosseguimento com a inscrição para a 
+            Prática Maratona de Programação 2025, é necessário
+            informar alguns dados para cadastro.
+            <br>
+            Seus dados estarão bem guardados e não serão disponibilizados
+            para qualquer fim externo.
+        </p>
+    </header>
+    <!-- Formulário -->
+    <section class="formulario">
+        <h2>
+            Formulário Prática Maratona de Programação 2025
+        </h2>
+        <form id="form" autocomplete="off">
+            <div class="entrada">
+                <label for="nome">
+                    Nome completo
+                </label>
+                <input type="text" id="nome" placeholder="Seu nome" required>
+            </div>
+
+            <div class="entrada">
+                <label for="idade">
+                    Idade 
+                </label>
+                <input type="number" id="idade" placeholder="Sua idade (apenas números)" 
+                required>
+            </div>
+
+            <div class="entrada">
+                <label for="email">
+                    E-mail pessoal
+                </label>
+                <input type="email" id="email" placeholder="Seu e-mail" required>
+            </div>
+
+            <div class="entrada">
+                <label for="curso">
+                    Curso acadêmico
+                </label>
+                <input type="text" id="curso" placeholder="Seu curso" required>
+            </div>
+
+            <div class="entrada">
+                <p>
+                    Marque as linguagens de programação que mais gosta
+                </p>
+                <div class="marque">
+                    <label class="linguagens" for="python">
+                        Python
+                        <input type="checkbox" id="python">
+                    </label>
+                    
+                    <label class="linguagens" for="java">
+                        Java
+                        <input type="checkbox" id="java">
+                    </label>
+
+                    <label class="linguagens" for="c">
+                        C
+                        <input type="checkbox" id="c">
+                    </label>
+
+                    <label class="linguagens" for="cpp">
+                        C ++
+                        <input type="checkbox" id="cpp">
+                    </label>
+
+                    <label class="linguagens" for="ruby">
+                        Ruby
+                        <input type="checkbox" id="ruby">
+                    </label>
+
+                    <label class="linguagens" for="javascript">
+                        Javascript
+                        <input type="checkbox" id="javascript">
+                    </label>
+                </div>
+            </div>
+            <button id="enviar" type="submit">
+                Enviar
+            </button>
+        </form>
+    </section>
+    <!-- Confirmação da inscrição e 
+    botão para realizar nova inscrição -->
+    <div id="sucesso" class="sucesso">
+        <h2>
+            Inscrição realizada com sucesso!
+        </h2>
+        <button class="nova" id="nova">
+            Realizar nova inscrição
+        </button>
+    </div>
+
+    <script src="scripts/scriptform.js"></script>
+</body>
+</html>
